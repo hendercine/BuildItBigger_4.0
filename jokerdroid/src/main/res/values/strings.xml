@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">jokerdroid</string>
+    <string name="a_joke_by_jokerdroid">A Joke by JokerDroid</string>
+    <string name="the_joke_is_missing">The Joke is missing!?!</string>
+</resources>
