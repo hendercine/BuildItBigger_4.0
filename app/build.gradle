@@ -46,7 +46,11 @@ android {
             java.srcDirs = ['src/paid/java', 'src/paid/java/']
             res.srcDirs = ['src/paid/res', 'src/paid/res/']
         }
-        main { java.srcDirs = ['src/main/java', 'src/androidTest'] }
+        main {
+            java.srcDirs = ['src/main/java']
+            java.excludes = ['androidTest/**']
+        }
+        androidTest.setRoot('src/androidTest')
         free {
             java.srcDirs = ['src/free/java', 'src/free/java/']
             res.srcDirs = ['src/free/res', 'src/free/res/']
