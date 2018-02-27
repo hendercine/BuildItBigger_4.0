@@ -17,7 +17,8 @@ import static junit.framework.Assert.assertNotNull;
 public class EndpointsAsyncTaskTest {
 
     @Rule
-    public ActivityTestRule<com.udacity.gradle.builditbigger.MainActivity> mainActivityActivityTestRule = new ActivityTestRule<com.udacity.gradle.builditbigger.MainActivity>(com.udacity.gradle.builditbigger.MainActivity.class);
+    public ActivityTestRule<com.udacity.gradle.builditbigger.MainActivity> mainActivityActivityTestRule =
+            new ActivityTestRule<>(com.udacity.gradle.builditbigger.MainActivity.class);
 
     @Test
     public void testVerifyReturnOfNonEmptyString() {

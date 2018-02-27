@@ -42,9 +42,6 @@ public class MainActivity extends AppCompatActivity implements EndpointsAsyncTas
     }
 
     public void tellJoke(View view) {
-
-//        Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
-//        Toast.makeText(this, JokeSource.getJoke(), Toast.LENGTH_SHORT).show();
         new EndpointsAsyncTask(this).execute();
     }
 
